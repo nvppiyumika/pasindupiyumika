@@ -14,6 +14,9 @@
 
 body{
     background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(../images/2454628.png);
+    background-size: cover; /* Ensures the image covers the entire viewport */
+    background-attachment: fixed; /* Keeps the background fixed while scrolling */
+    background-position: center center; /* Centers the background image */
     color: var(--color-body);
     font-family: var(--font-base),sans-serif;
 }

@@ -3,7 +3,7 @@ import Image from 'next/image';
 export default function Blogs() {
     const blogs = [
         {
-            image: "/assets/images/Design Thinking.jpg",
+            image: "/pasindupiyumika/assets/images/Design Thinking.jpg",
             title: "Design Thinking in UI/UX",
             description: "Explore how design thinking helps teams create digital products that are not only functional, but deeply aligned with real user needs — using empathy, creativity, and constant feedback.",
             link: "https://dev.to/nvppiyumika/design-thinking-in-uiux-making-products-people-love-49pp",

@@ -43,7 +43,7 @@ export default function Navbar() {
                 <a className="navbar-brand mx-lg-auto mb-lg-4" href="#">
                     <span className="h3 fw-bold d-block d-lg-none">Pasindu.</span>
                     <Image
-                        src="/assets/images/profile.jpg"
+                        src="/pasindupiyumika/assets/images/profile.jpg"
                         className="d-none d-lg-block rounded-circle"
                         alt="Profile"
                         width={200}

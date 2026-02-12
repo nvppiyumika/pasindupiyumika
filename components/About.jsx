@@ -29,7 +29,7 @@ export default function About() {
                             </div>
                         </div>
 
-                        <a href="/assets/images/Pasindu Piyumika CV.pdf" className="btn btn-brand me-3" data-aos="fade-up" data-aos-delay="300" download>
+                        <a href="/pasindupiyumika/assets/images/Pasindu Piyumika CV.pdf" className="btn btn-brand me-3" data-aos="fade-up" data-aos-delay="300" download>
                             DOWNLOAD CV
                         </a>
                     </div>

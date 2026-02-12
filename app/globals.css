@@ -15,7 +15,7 @@
 
 
 body {
-    background: linear-gradient(rgba(0, 0, 0, 0.253), rgba(0, 0, 0, 0.8)), url(/assets/images/2454628.png);
+    background: linear-gradient(rgba(0, 0, 0, 0.253), rgba(0, 0, 0, 0.8)), url(/pasindupiyumika/assets/images/2454628.png);
     background-size: cover;
     background-attachment: fixed;
     background-position: center center;
@@ -210,14 +210,14 @@ img {
 /* Line Awesome Icons */
 @font-face {
     font-family: 'Line Awesome Free';
-    src: url('/assets/fonts/la-solid-900.woff2') format('woff2'),
-        url('/assets/fonts/la-solid-900.woff') format('woff');
+    src: url('/pasindupiyumika/assets/fonts/la-solid-900.woff2') format('woff2'),
+        url('/pasindupiyumika/assets/fonts/la-solid-900.woff') format('woff');
 }
 
 @font-face {
     font-family: 'Line Awesome Brands';
-    src: url('/assets/fonts/la-brands-400.woff2') format('woff2'),
-        url('/assets/fonts/la-brands-400.woff') format('woff');
+    src: url('/pasindupiyumika/assets/fonts/la-brands-400.woff2') format('woff2'),
+        url('/pasindupiyumika/assets/fonts/la-brands-400.woff') format('woff');
 }
 
 .las,

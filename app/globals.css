@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600;700&display=swap');
+@import 'bootstrap/dist/css/bootstrap.min.css';
+@import 'aos/dist/aos.css';
+
+:root {
+    --color-body: #ffffff;
+    --color-heading: #ffffff;
+    --color-base: #033f47;
+    --color-base2: #000000;
+    --color-brand: #6c92de;
+    --color-brand2: #deff58;
+    --sidebar-width: 240px;
+    --font-base: "Bai Jamjuree";
+}
+
+
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.253), rgba(0, 0, 0, 0.8)), url(/assets/images/2454628.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    color: var(--color-body);
+    font-family: var(--font-base), sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #ffffff !important;
+    font-weight: 700;
+    font-family: var(--font-base), sans-serif;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 1), 0 0 10px rgba(0, 0, 0, 0.9);
+}
+
+a {
+    text-decoration: none;
+    color: var(--color-body);
+    transition: all 0.4s ease;
+    font-family: var(--font-base), sans-serif;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+}
+
+a:hover {
+    color: var(--color-brand);
+}
+
+p,
+.lead {
+    color: #e9e9e9;
+    font-family: var(--font-base), sans-serif;
+    text-shadow: 1px 1px 6px rgba(0, 0, 0, 1), 0 0 8px rgba(0, 0, 0, 0.9);
+}
+
+img {
+    width: 100%;
+}
+
+.text-brand {
+    color: var(--color-brand);
+}
+
+.bg-base {
+    background-color: var(--color-base2);
+}
+
+.full-height {
+    min-height: 100vh;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+.shadow-effect {
+    transition: all 0.5s;
+}
+
+.shadow-effect:hover {
+    box-shadow: 0 0 0 3px var(--color-brand);
+}
+
+.iconbox {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    background-color: var(--color-brand);
+    color: var(--color-base2);
+}
+
+/* navbar */
+.navbar {
+    background-color: #1c1c1c;
+}
+
+.navbar .nav-link {
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.navbar .nav-link:hover {
+    color: var(--color-brand);
+}
+
+.navbar .nav-link.active {
+    color: var(--color-brand) !important;
+}
+
+@media (min-width:992px) {
+    .navbar {
+        min-height: 100vh;
+        width: var(--sidebar-width);
+        background: linear-gradient(#1c1c1c, #1c1c1c);
+        background-size: cover;
+        background-position: center;
+    }
+
+    .navbar-brand img {
+        border: 8px solid var(--color-brand);
+    }
+
+    /* content wrapper */
+
+    #content-wrapper {
+        padding-left: var(--sidebar-width);
+    }
+}
+
+/* button */
+
+.btn {
+    padding: 12px 28px;
+    font-weight: 500;
+}
+
+.btn-brand {
+    background-color: var(--color-brand) !important;
+    border-color: var(--color-brand) !important;
+    color: var(--color-heading) !important;
+    text-shadow: none !important;
+}
+
+.btn-brand:hover,
+.btn-brand:focus {
+    background-color: var(--color-body) !important;
+    color: var(--color-base2) !important;
+    border-color: var(--color-body) !important;
+    text-shadow: none !important;
+}
+
+.btn2 {
+    padding: 10px 10px;
+    font-size: 40px;
+    color: var(--color-heading);
+}
+
+.btn2:hover {
+    color: var(--color-brand);
+}
+
+.link-custom {
+    font-weight: 700;
+    position: relative;
+    text-decoration: none;
+    color: var(--color-body);
+}
+
+.link-custom:hover {
+    color: var(--color-brand);
+    text-decoration: none;
+}
+
+.link-custom::after {
+    content: "";
+    width: 0%;
+    height: 2px;
+    background-color: var(--color-brand);
+    position: absolute;
+    right: 0;
+    left: auto;
+    bottom: 0;
+    transition: all 0.4s;
+}
+
+.link-custom:hover::after {
+    width: 100%;
+    right: auto;
+    left: 0;
+}
+
+/* card */
+
+.card-custom .card-custom-image {
+    overflow: hidden;
+}
+
+.link-custom .card-custom-image img {
+    transition: all 0.4s ease;
+}
+
+/* Line Awesome Icons */
+@font-face {
+    font-family: 'Line Awesome Free';
+    src: url('/assets/fonts/la-solid-900.woff2') format('woff2'),
+        url('/assets/fonts/la-solid-900.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Line Awesome Brands';
+    src: url('/assets/fonts/la-brands-400.woff2') format('woff2'),
+        url('/assets/fonts/la-brands-400.woff') format('woff');
+}
+
+.las,
+.lab {
+    font-family: 'Line Awesome Free', 'Line Awesome Brands';
+    font-weight: 900;
+    font-style: normal;
+}
+
+.lab {
+    font-family: 'Line Awesome Brands';
+    font-weight: 400;
+}

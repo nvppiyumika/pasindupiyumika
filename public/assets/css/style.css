@@ -1,27 +1,34 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600;700&display=swap');
 
 :root {
-    --color-body:#b6cbce;
-    --color-heading:#eef3db;
-    --color-base:#033f47;
-    --color-base2:#000000;
-    --color-brand:#6c92de;
-    --color-brand2:#deff58;
-    --sidebar-width:240px;
-    --font-base:"Bai Jamjuree";
+    --color-body: #b6cbce;
+    --color-heading: #eef3db;
+    --color-base: #033f47;
+    --color-base2: #000000;
+    --color-brand: #6c92de;
+    --color-brand2: #deff58;
+    --sidebar-width: 240px;
+    --font-base: "Bai Jamjuree";
 }
 
-body{
-    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(../images/2454628.png);
-    background-size: cover; /* Ensures the image covers the entire viewport */
-    background-attachment: fixed; /* Keeps the background fixed while scrolling */
-    background-position: center center; /* Centers the background image */
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/pasindupiyumika/assets/images/2454628.png);
+    background-size: cover;
+    /* Ensures the image covers the entire viewport */
+    background-attachment: fixed;
+    /* Keeps the background fixed while scrolling */
+    background-position: center center;
+    /* Centers the background image */
     color: var(--color-body);
-    font-family: var(--font-base),sans-serif;
+    font-family: var(--font-base), sans-serif;
 }
 
-h1,h2,h3,h4,h5,h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     color: var(--color-heading);
     font-weight: 700;
 }
@@ -67,7 +74,7 @@ img {
     box-shadow: 0 0 0 3px var(--color-brand);
 }
 
-.iconbox  {
+.iconbox {
     width: 60px;
     height: 60px;
     display: flex;
@@ -90,7 +97,7 @@ img {
     color: #ffffff;
 }
 
-.navbar .nav-link:hover{
+.navbar .nav-link:hover {
     color: var(--color-brand);
 }
 
@@ -98,8 +105,8 @@ img {
     color: var(--color-brand);
 }
 
-@media (min-width:992px){
-    .navbar{
+@media (min-width:992px) {
+    .navbar {
         min-height: 100vh;
         width: var(--sidebar-width);
         background: linear-gradient(#1c1c1c, #1c1c1c);
@@ -107,7 +114,7 @@ img {
         background-position: center;
     }
 
-    .navbar-brand img{
+    .navbar-brand img {
         border: 8px solid var(--color-brand);
     }
 
@@ -184,4 +191,3 @@ img {
 }*/
 
 /* Skills */
-

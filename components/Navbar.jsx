@@ -2,6 +2,7 @@
 
 import Image from 'next/image';
 import { useEffect, useState } from 'react';
+import { getAssetPath } from '@/utils/paths';
 
 export default function Navbar() {
     const [activeSection, setActiveSection] = useState('home');
@@ -43,7 +44,7 @@ export default function Navbar() {
                 <a className="navbar-brand mx-lg-auto mb-lg-4" href="#">
                     <span className="h3 fw-bold d-block d-lg-none">Pasindu.</span>
                     <Image
-                        src="/pasindupiyumika/assets/images/profile.jpg"
+                        src={getAssetPath('/assets/images/profile.jpg')}
                         className="d-none d-lg-block rounded-circle"
                         alt="Profile"
                         width={200}

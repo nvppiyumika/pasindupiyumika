@@ -1,51 +1,52 @@
 import Image from 'next/image';
+import { getAssetPath } from '@/utils/paths';
 
 export default function Projects() {
     const projects = [
         {
-            image: "/pasindupiyumika/assets/images/Spa Ceylon.png",
+            image: getAssetPath('/assets/images/Spa Ceylon.png'),
             title: "Spa Ceylon Mobile App Design",
             description: "A seamless e-commerce experience for Spa Ceylon's luxury wellness brand.",
             link: "https://www.behance.net/gallery/229642263/Spa-Ceylon-Mobile-App-Design",
             delay: "100"
         },
         {
-            image: "/pasindupiyumika/assets/images/Soil Boost.jpg",
+            image: getAssetPath('/assets/images/Soil Boost.jpg'),
             title: "Soil Boost Web App Design",
             description: "Platform for seamless fertilizer distribution connecting suppliers and buyers effortlessly.",
             link: "https://www.behance.net/gallery/224613901/SoilBoost-Web-Application",
             delay: "150"
         },
         {
-            image: "/pasindupiyumika/assets/images/Eventhub.jpg",
+            image: getAssetPath('/assets/images/Eventhub.jpg'),
             title: "EventHub Web Design",
             description: "Platform for seamless event planning and hassle-free ticket booking.",
             link: "https://www.behance.net/gallery/220429605/EventHub-Event-Planning-Ticket-Booking-Platform",
             delay: "200"
         },
         {
-            image: "/pasindupiyumika/assets/images/Combank redesign.png",
+            image: getAssetPath('/assets/images/Combank redesign.png'),
             title: "Combank Digital App",
             description: "Combank Digital App redesign to improve user experience and accessibility.",
             link: "https://www.behance.net/gallery/218825435/Combank-Digital-App-Redesign",
             delay: "100"
         },
         {
-            image: "/pasindupiyumika/assets/images/Teasy pay.png",
+            image: getAssetPath('/assets/images/Teasy pay.png'),
             title: "T-easy Pay Mobile App Design",
             description: "Mobile Ticket Booking & Train Tracking Mobile Platform UI Design",
             link: "https://www.behance.net/gallery/210470719/T-Easy-Pay-Train-Ticket-Booking-and-Tracking-Platform",
             delay: "150"
         },
         {
-            image: "/pasindupiyumika/assets/images/Heal Me.png",
+            image: getAssetPath('/assets/images/Heal Me.png'),
             title: "Heal Me Mobile App Design",
             description: "Mental Healthcare & Fitness Tracking Mobile Platform UI Design",
             link: "https://www.behance.net/gallery/211011107/HealMe-Mental-Healthcare-Fitness-Tracking-App-Design",
             delay: "200"
         },
         {
-            image: "/pasindupiyumika/assets/images/Railways redesign.png",
+            image: getAssetPath('/assets/images/Railways redesign.png'),
             title: "Sri Lanka Railways Website",
             description: "Sri Lanka Railway website redesign to improve user experience and accessibility.",
             link: "https://www.behance.net/gallery/214813825/Sri-Lanka-Railways-Website-Redesign",
